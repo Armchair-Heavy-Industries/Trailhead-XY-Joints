@@ -3,9 +3,11 @@
 ## Plated, 1515 Extrusion, 6mm Belts
 
 ### Source:
-- 2x Cut Aluminum Plates using xyjplate[x2].dxf
+- 2x cut aluminum plates, 0.125" / 3.2mm thick, using DXF/xyjplate[x2].dxf
+- (optional) 1x cut titanium plate, 0.125" / 3.2mm thick, using DXF/1515_x_backer_(size).DXF
 - 1515 profile extrusion, e.g. [from Misumi](https://us.misumi-ec.com/vona2/detail/110300465870/)
-- M3 tap to use on the extrusion
+    - Length is the X-axis extrusion, e.g. 300mm spec Trident uses 380mm extrusion
+- M3 tap to use on the extrusion ends
 
 ### Print: 
 - xyj-left-lower-plated.stl
@@ -13,18 +15,19 @@
 - 1515 6mm Trailhead - XY Joint - Left Top.stl
 - 1515 6mm Trailhead - XY Joint - Right Top.stl
 - 2x misumi1515nodropsquare6mm.stl
-- 18x misumi1515nodropsquare.stl (You may have leftovers)
+- 27x misumi1515nodropsquare.stl (You may have leftovers)
 
 ### Small Parts:
 - 4x M3 heatset inserts
     - Insert into xyj-*-lower-plated printed parts
 - 2x 6mm pulley for belts
 - 8x F695 bearing (Four greater than the stock XY joints)
-- 18x Roll/Slide-in M3 T-nuts for 1515 Extrusions
+- 27x Roll/Slide-in M3 T-nuts for 1515 Extrusions
     - choose the correct type for your 1515 profile. LDO and Makerbeam are different.
-- 20x M3x6mm BHCS
+- 29x M3x6mm BHCS
     - 2x through rear of extrusion
     - 10x through X-axis MGN rail (for 300mm spec / 350mm rail / 380mm extrusion)
+    - (optional) 9x through titanium backer bar
     - 8x through plates into Y axis MGN carriage
 - 4x M3x8mm SHCS
     - 4x through upper printed joints into extrusion
