@@ -3,9 +3,11 @@
 ## Plated, 1515 Extrusion, 6mm Belts
 
 ### Source:
-- 2x Cut Aluminum Plates using xyjplate[x2].dxf
+- 2x cut aluminum plates, 0.125" / 3.2mm thick, using DXF/xyjplate[x2].dxf
+- 1x cut titanium plate, 0.063" / 1.6mm thick, using DXF/1515_x_backer_(size).DXF
 - 1515 profile extrusion, e.g. [from Misumi](https://us.misumi-ec.com/vona2/detail/110300465870/)
-- M3 tap to use on the extrusion
+    - Length is the X-axis extrusion, e.g. 300mm spec Trident uses 380mm extrusion
+- M3 tap to use on the extrusion ends
 
 ### Print: 
 - xyj-left-lower-plated.stl
